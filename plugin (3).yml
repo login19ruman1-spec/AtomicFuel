@@ -1,0 +1,22 @@
+# AtomicFuel 1.0.0
+
+Target: Paper 1.21.4 / Java 21.
+
+## Included
+
+- Exact 3x3 reactor frame validator.
+- Exact 3x3 water cooling layer directly above reactor.
+- AtomicEnergy generation and Redstone Buffer storage.
+- Copper conductor network.
+- AtomicBattery transfer from buffers.
+- Enrichment 1–10.
+- ControlRod, CoolantCell, NeutronReflector.
+- Byproducts in adjacent chest.
+- Stable and unstable player effects.
+- ChargedWater and Radioactive Water Bucket.
+- Persistent RadiationZone with effects, terrain changes, cleanup and expansion.
+- Meltdown countdown, cancellable API event and Minecraft explosion.
+- RadioactiveCore.
+- PDC-based custom item/block/world/chunk state.
+- Reactor and radiation state restoration after server restart.
+- Full commands, permissions and documentation.

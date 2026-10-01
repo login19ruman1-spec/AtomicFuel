@@ -1,0 +1,73 @@
+# AtomicFuel — config.yml
+
+## energy
+
+`per-tick-base`: базовая генерация.
+
+`per-tick-per-enrichment`: добавка за уровень Enrichment.
+
+`battery-capacity`: максимум AtomicEnergy в батарее.
+
+`redstone-buffer-capacity`: максимум AtomicEnergy в одном Redstone Block.
+
+## cooling
+
+`water-cool-per-tick`: сила охлаждения полного 3×3 водного слоя.
+
+`charge-water-every-seconds`: через сколько секунд обычная вода превращается в ChargedWater.
+
+`charged-water-heat-penalty`: нагрев от заражённой воды. Используется модуль по абсолютному значению.
+
+## radiation
+
+`zone-radius-water`: радиус зоны от Radioactive Water Bucket.
+
+`zone-radius-explosion`: стартовый радиус зоны после взрыва и предел её расширения.
+
+`duration-seconds`: длительность зоны.
+
+`expand-every-seconds`: период расширения взрывной зоны.
+
+`effect-tick-interval`: период радиационных эффектов.
+
+`water-cleanup-reduction`: уменьшение заражения от обычной воды.
+
+`radaway-reduction`: уменьшение радиуса от RadAway.
+
+## reactor
+
+`countdown-seconds`: длительность аварийного countdown.
+
+`stability-decay-per-tick`: скорость потери стабильности.
+
+`temperature-max`: верхний предел температуры.
+
+`temperature-meltdown`: порог запуска countdown.
+
+`control-rod-bonus`: стабильность за ControlRod.
+
+`coolant-reduction`: снижение температуры командой stabilize.
+
+`heat-spike-on-remove`: нагрев при повреждении реакторного каркаса.
+
+`max-enrichment`: максимальное игровое обогащение.
+
+## explosion
+
+`power`: сила обычного Minecraft explosion.
+
+`destroy-blocks`: разрушать ли блоки.
+
+`fire`: создавать ли огонь.
+
+`knockback`: сила отбрасывания сущностей.
+
+`crater-radius`: размер декоративного кратера.
+
+## byproduct
+
+`every-seconds`: интервал побочных продуктов.
+
+## buff-zone
+
+`radius`: радиус стабильных/нестабильных эффектов.
